@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Score</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore"></h1>
+            <button class="btn" id="goHomeBtn">Go Home</button>
+        </div>
+    </div>
+    <script>
+        // Retrieve the score and username
+        const finalScore = localStorage.getItem('mostRecentScore');
+        const username = localStorage.getItem('username');
+
+        // Check if the score and username are retrieved correctly
+        if (finalScore !== null && username !== null) {
+            document.getElementById('finalScore').innerText = `${username}, your score: ${finalScore}`;
+        } else {
+            document.getElementById('finalScore').innerText = "Error retrieving score or username.";
+        }
+
+        // Event listener for Go Home button
+        document.getElementById('goHomeBtn').addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "choice1": "<script>",
+        "choice2": "<javascript>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 1
+    },
+    {
+        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "choice1": "<script href='xxx.js'>",
+        "choice2": "<script name='xxx.js'>",
+        "choice3": "<script src='xxx.js'>",
+        "choice4": "<script file='xxx.js'>",
+        "answer": 3
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": 4
+    },
+    {
+        "question": "What does CSS stand for?",
+        "choice1": "Creative Style Sheets",
+        "choice2": "Cascading Style Sheets",
+        "choice3": "Colorful Style Sheets",
+        "choice4": "Computer Style Sheets",
+        "answer": 2
+    },
+    {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "choice1": "styles",
+        "choice2": "style",
+        "choice3": "font",
+        "choice4": "class",
+        "answer": 2
+    },
+    {
+        "question": "Which HTML element is used to define the title of a document?",
+        "choice1": "<title>",
+        "choice2": "<head>",
+        "choice3": "<meta>",
+        "choice4": "<link>",
+        "answer": 1
+    },
+    {
+        "question": "What does 'DOM' stand for?",
+        "choice1": "Document Object Model",
+        "choice2": "Data Object Model",
+        "choice3": "Document Open Model",
+        "choice4": "Document Orientation Model",
+        "answer": 1
+    },
+    {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "choice1": "onclick",
+        "choice2": "onchange",
+        "choice3": "onmouseover",
+        "choice4": "onmouseout",
+        "answer": 1
+    },
+    {
+        "question": "What is the correct way to write a JavaScript array?",
+        "choice1": "var colors = 'red', 'green', 'blue'",
+        "choice2": "var colors = ['red', 'green', 'blue']",
+        "choice3": "var colors = (1:'red', 2:'green', 3:'blue')",
+        "choice4": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
+        "answer": 2
+    },
+    {
+        "question": "How can you add a comment in a JavaScript?",
+        "choice1": "// This is a comment",
+        "choice2": "<!-- This is a comment -->",
+        "choice3": "' This is a comment",
+        "choice4": "# This is a comment",
+        "answer": 1
+    }
+]

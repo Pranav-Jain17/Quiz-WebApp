@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Quiz - Login</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="login" class="flex-center flex-column">
+            <h1>Quick Quiz</h1>
+            <form id="loginForm">
+                <input type="text" id="usernameInput" placeholder="Enter your name" required>
+                <button type="submit">Start Quiz</button>
+            </form>
+            <p id="errorMessage" class="error" style="display: none;">Please enter a valid name.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const username = document.getElementById('usernameInput').value;
+            localStorage.setItem('username', username);
+            window.location.href = '/game.html';
+        });
+    </script>
+</body>
+
+</html>
